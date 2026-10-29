@@ -1,0 +1,3 @@
+{"$schema":"https://jason-schema.org/draft/2020-12/schema"
+,"title":"LegalTech Contract Schema","type":"object"
+,"properties":{"contractId":{"type":"string"},"status":{"type":"string","enum":["draft","active","terminated"]}}, "required":["contractId","status"]}
